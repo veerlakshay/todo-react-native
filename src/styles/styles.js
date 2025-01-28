@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f4f4f8', // Light background
+        backgroundColor: '#f4f4f8',
         paddingHorizontal: 16,
     },
     heading: {
@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginVertical: 16,
         textAlign: 'center',
-        color: '#333', // Dark gray for contrast
+        color: '#333',
     },
     inputContainer: {
         flexDirection: 'row',
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
     },
     addButton: {
-        backgroundColor: '#28a745', // Green for add button
+        backgroundColor: '#28a745',
         paddingHorizontal: 12,
         paddingVertical: 10,
         borderRadius: 8,
@@ -72,20 +72,20 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     due: {
-        color: '#FFA500', // Orange for 'due'
+        color: '#FFA500',
     },
     done: {
-        color: '#4CAF50', // Green for 'done'
+        color: '#4CAF50',
     },
     toggleButton: {
-        backgroundColor: '#007BFF', // Blue button for "Mark Done"
+        backgroundColor: '#007BFF',
         paddingHorizontal: 10,
         paddingVertical: 6,
         borderRadius: 8,
         marginLeft: 10,
     },
     toggleButtonDone: {
-        backgroundColor: '#6c757d', // Grey button for "Mark Due"
+        backgroundColor: '#6c757d',
     },
     toggleButtonText: {
         color: '#fff',
