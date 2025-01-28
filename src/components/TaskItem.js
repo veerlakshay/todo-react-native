@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons'; // Import MaterialCommunityIcons
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import styles from '../styles/styles';
 
 const TaskItem = ({ task, toggleStatus, deleteTask }) => {
